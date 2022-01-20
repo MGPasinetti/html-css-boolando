@@ -17,6 +17,7 @@ html {
     margin: 1rem auto;
 }
 
+/* DIM CONTENUTO */
 .clearfix::after {
     content: '';
     display: table;
@@ -24,12 +25,12 @@ html {
 }
 
 section {
-    width: calc((100% - 1em) / 3);
+    width: calc((100% - 3em) / 3);
     float: left;
 }
 
 .col_2 {
-    margin: 0 .5em;
+    margin: 0 1.5em;
 }
 
 .row_1 {
@@ -39,4 +40,33 @@ section {
 img {
     width: 100%;
     object-fit: contain;
+}
+
+/* NAME&PRICE */
+.name-price {
+    line-height: 1.2;
+}
+
+.name-price .brand, div {
+    font-size: 7px;
+}
+
+.brand {
+    font-weight: 100;
+}
+
+.name-price h1 {
+    font-size: 8px;
+    text-transform: uppercase;
+} 
+
+.discounted-price {
+    display: inline;
+    font-weight: bold;
+    color: red;
+}
+
+.old-price {
+    display: inline;
+    text-decoration-line: line-through;
 }
