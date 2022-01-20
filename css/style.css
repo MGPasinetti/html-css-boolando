@@ -3,3 +3,38 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    line-height: 1.5;
+    font-size: 16px;
+    color: black;
+}
+
+.container {
+    width: 80%;
+    margin: 1rem auto;
+    background-color: coral;
+}
+
+.clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+section {
+    background-color: gold;
+    width: calc((100% - 2rem) / 3);
+    height: 20em;
+    float: left;
+}
+
+.col_2 {
+    margin: 0 1em;
+}
+
+.row_1 {
+    margin-bottom: 1.5em;
+}
