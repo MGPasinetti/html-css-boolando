@@ -42,6 +42,41 @@ img {
     object-fit: contain;
 }
 
+/* BLOCCHI COLORATI */
+.img-product {
+    position: relative;
+}
+
+.img-product .like {
+    background-color: white;
+    position: absolute;
+    top: 1em;
+    right: 0;
+    width: 2em;
+    font-size: 12px;
+    line-height: 2em;
+    text-align: center;
+}
+
+.colored-lbls {
+    position: absolute;
+    left: 0;
+    bottom: 2em;
+    color: white;
+    font-size: 7px;
+    font-weight: bold;
+}
+
+.discount {
+    background-color: red;
+    padding: .3em;
+}
+
+.eco {
+    background-color: #00875A;
+    padding: .3em;
+}
+
 /* NAME&PRICE */
 .name-price {
     line-height: 1.2;
