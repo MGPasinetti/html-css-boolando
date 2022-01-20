@@ -98,6 +98,7 @@ section:hover img:nth-child(2) {
 
 /* NAME&PRICE */
 .name-price {
+    margin-top: .5em;
     line-height: 1.2;
 }
 
