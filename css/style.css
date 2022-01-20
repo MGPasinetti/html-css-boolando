@@ -27,6 +27,7 @@ html {
 section {
     width: calc((100% - 3em) / 3);
     float: left;
+    position: relative;
 }
 
 .col_2 {
@@ -42,7 +43,25 @@ img {
     object-fit: contain;
 }
 
-/* BLOCCHI COLORATI */
+/* HOVER IMG */
+.img-product img:first-child {
+    display: block;
+}
+
+.img-product img:nth-child(2) {
+    display: none;
+}
+
+section:hover img:first-child {
+    display: none;
+}
+
+section:hover img:nth-child(2) {
+    display: block;
+}
+
+
+/* LABELS */
 .img-product {
     position: relative;
 }
@@ -68,7 +87,7 @@ img {
 }
 
 .discount {
-    background-color: red;
+    background-color: #EB0037;
     padding: .3em;
 }
 
@@ -105,3 +124,4 @@ img {
     display: inline;
     text-decoration-line: line-through;
 }
+
